@@ -76,12 +76,4 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
-<<<<<<< HEAD
-  # Default URL adding during devise setup
-
-  config.action_mailer.default_url_options = { :host => 'https://enigmatic-savannah-5748.herokuapp.com/' }
-=======
-  config.action_mailer.default_url_options = { :host => 'http://pinteresting-commits.herokuapp.com/' }
->>>>>>> devise
 end
