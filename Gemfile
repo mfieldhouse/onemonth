@@ -27,7 +27,7 @@ gem 'devise', '~> 3.4.1'
 # paperclip for image upload, any version above 4.2 but below 5.0
 gem 'paperclip', '~> 4.2'
 # aws for image store
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk', '< 2.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
