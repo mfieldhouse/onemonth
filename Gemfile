@@ -28,6 +28,9 @@ gem 'devise', '~> 3.4.1'
 gem 'paperclip', '~> 4.2'
 # aws for image store
 gem 'aws-sdk', '< 2.0'
+# masonry and Turbolinks for pin styling
+gem 'jquery-turbolinks'
+gem 'masonry-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
