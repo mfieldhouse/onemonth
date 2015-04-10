@@ -31,6 +31,10 @@ gem 'aws-sdk', '< 2.0'
 # masonry and Turbolinks for pin styling
 gem 'jquery-turbolinks'
 gem 'masonry-rails'
+# pagination
+gem 'will_paginate', '~> 3.0.5'
+# pagination and bootstrap
+gem 'will_paginate-bootstrap'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
