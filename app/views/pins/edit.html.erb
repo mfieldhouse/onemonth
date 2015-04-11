@@ -1,6 +1,30 @@
-<h1>Editing Pin</h1>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <div class="panel-title">
+      <h1>Edit Your Pin</h1>
+    </div>
+  </div>
 
-<%= render 'form' %>
+  <div class="panel-body">
+    <%= form_for(@pin, method: "patch") do |f| %>
 
-<%= link_to 'Show', @pin %> |
-<%= link_to 'Back', pins_path %>
+      <div class="form-group">
+        <%= f.label :image %>
+        <%= f.file_field :image, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :description %>
+        <%= f.text_field :description, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.submit "Update", class: "btn btn-primary" %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="panel-footer">
+    <%= link_to 'Back', pins_path %>
+  </div>
+</div>
